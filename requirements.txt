@@ -1,0 +1,30 @@
+# scripts: v1_detectar_face_imagens.py, v2_detectar_face_video_completo.py, v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: OpenCV cuida de leitura/escrita de video e imagem e desenha caixas e labels nos scripts.
+opencv-python
+# scripts: v1_detectar_face_imagens.py, v2_detectar_face_video_completo.py, v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: NumPy suporta arrays, buffers de imagem e operacoes numericas nos scripts.
+numpy==1.26.4
+# scripts: v2_detectar_face_video_completo.py, v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: tqdm exibe a barra de progresso nos loops de frames do video.
+tqdm
+# scripts: v1_detectar_face_imagens.py
+# motivo: MediaPipe fornece um detector de faces opcional usado como fallback nos testes de imagem.
+mediapipe==0.10.20
+# scripts: v1_detectar_face_imagens.py, v2_detectar_face_video_completo.py, v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: ultralytics fornece os modelos YOLO para deteccao de faces e pose/pessoa no pipeline.
+ultralytics
+# scripts: v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: DeepFace fornece analise de emocoes e embeddings faciais para reconhecimento e rastreamento.
+deepface
+# scripts: download_yolo_model.py
+# motivo: requests baixa os pesos dos modelos YOLO quando necessario.
+requests
+# scripts: v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: tf-keras e a API Keras usada pelo DeepFace para inferencia.
+tf-keras==2.19.0
+# scripts: v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: TensorFlow e o backend usado pelos modelos do DeepFace na inferencia.
+tensorflow==2.19.0
+# scripts: v3_detectar_face_video_completo.py, v4_detectar_face_distinta.py, v5_salvar_rostos.py, v6_reconhecendo.py, v7_detectar_movimentos.py, v8_anomalias.py, v9_final.py
+# motivo: protobuf garante compatibilidade para carregamento dos modelos do TensorFlow e DeepFace.
+protobuf<5

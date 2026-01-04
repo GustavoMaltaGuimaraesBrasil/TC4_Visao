@@ -1,0 +1,30 @@
+# Outputs
+saida/v1/
+saida/v2/
+saida/v3/
+saida/v4/
+saida/v5/
+saida/v6/
+saida/v7/
+saida/v8/
+src/Saida/v1/
+src/Saida/v2/
+src/Saida/v3/
+src/Saida/v4/
+src/Saida/v5/
+src/Saida/v6/
+src/Saida/v7/
+src/Saida/v8/
+
+# Models and virtual env
+models/
+.venv/
+
+# Presentation docs
+roteiro_fala.md
+slides_apresentacao.md
+roteiro_audio.txt
+
+# Editor/IDE and caches
+.vs/
+src/__pycache__/
