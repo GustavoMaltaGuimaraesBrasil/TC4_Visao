@@ -5,7 +5,7 @@ reproduzir os resultados do projeto.
 
 ## Objetivo do projeto
 Aplicacao de analise de video com:
-- reconhecimento facial
+- deteccao/reconhecimento facial
 - analise de expressoes emocionais
 - deteccao de atividades
 - geracao de resumo automatico

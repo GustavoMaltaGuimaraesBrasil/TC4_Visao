@@ -41,6 +41,47 @@ python src/download_yolo_model.py
 python src/v9_final.py
 ```
 
+### Parte tecnica / bibliotecas e ferramentas
+OpenCV - base para ler videos, cortar frames, desenhar caixas e salvar resultados. 
+NumPy - calculos e manipulacao de arrays de imagem e embeddings. 
+tqdm - acompanhar progresso em video longo. 
+pathlib - caminhos organizados. 
+json e time - estatisticas e medir tempo. 
+math e usado - distancias e geometria. 
+A biblioteca ultralytics - carrega os modelos YOLO.
+
+Modelos:
+YOLOv8n-face, - rapido bem robusto para rosto em video real, com angulos diferentes e iluminacao variada. (Eu comparei com MediaPipe e Haar, mas o YOLO foi o mais consistente.)
+YOLOv11n, para detectar corpo e movimento geral 
+YOLOv11 pose, -fornece keypoints do corpo e permite classificar atividades. 
+DeepFacePara reconhecimento e emocao, ja vem pronto com embeddings e analise de emocao. 
+MediaPipe e Haar ficaram apenas como comparacao inicial.
+
+
+
+
+Notas sobre os scripts por versao (contexto e resultados):
+
+Script auxiliar: `src/face_detection.py`. Centraliza o fallback de deteccao com MediaPipe e Haar. Usei no inicio para comparar detectores e validar a escolha do YOLO. O MediaPipe teve desempenho razoavel, mas ainda perde para o YOLO em qualidade quando o rosto esta pequeno ou com oclusao. O Haar e bem rapido, mas erra muito e gera falsos positivos, especialmente com ruido. Por isso ficou como ultimo fallback e quase nao foi usado nas versoes finais.
+
+Script v1: `src/v1_detectar_face_imagens.py`. Calibro com imagens em `src/Entrada/calibrar`. O script tenta YOLO primeiro, depois MediaPipe e depois Haar. As caixas usam cores: verde para YOLO, azul para MediaPipe e vermelho para Haar. O objetivo era decidir, com base em evidencias, qual detector usar no resto do projeto. O resultado foi claro: o verde do YOLO foi o melhor, com caixas estaveis e menos erro. O vermelho do Haar foi ruim, com deteccoes falsas. Por isso continuei com o que salva em verde e deixei o vermelho apenas como ultimo recurso. Essa foi a base da mudanca depois.
+
+Script v2: `src/v2_detectar_face_video_completo.py`. Removi o fallback e usei so o YOLOv8n-face no video inteiro. O objetivo foi medir desempenho real e criar estatisticas base. Gero um video com caixas e um JSON com total de faces e media por frame. O resultado foi estavel, com milhares de faces detectadas e media consistente por frame. Isso confirmou que o modelo principal estava funcionando bem e justificou continuar com o YOLO como detector unico.
+
+Script v3: `src/v3_detectar_face_video_completo.py`. Adicionei o DeepFace para emocao. O fluxo e: YOLO detecta a face, recorto o rosto e chamo o `DeepFace.analyze` para classificar emocao. Escolhi o DeepFace porque ja vem treinado e entrega varias emocoes com probabilidades. O custo e que o processamento fica mais lento. O resultado foi uma distribuicao coerente, com predominio de Triste e outras emocoes como Neutro e Feliz aparecendo. Mantive esse passo porque a emocao agrega valor no resumo final, mesmo aumentando o tempo.
+
+Script v4: `src/v4_detectar_face_distinta.py`. Mudei o foco para rastreamento e identidade persistente. Criei um rastreador de faces baseado em embeddings do `DeepFace.represent`, comparando por similaridade de cosseno, com limiar de associacao e tolerancia de frames perdidos. Fiz essa alteracao porque so detectar em cada frame cria duplicidade e instabilidade. O resultado foram IDs mais consistentes e base melhor para relatorios temporais. Essa foi uma mudanca importante porque melhora a narrativa por pessoa.
+
+Script v5: `src/v5_salvar_rostos.py`. Foquei em montar uma base de rostos. Salvo a primeira imagem de cada pessoa rastreada e depois salvo de tempos em tempos. Adicionei margem ao redor do rosto para pegar mais contexto. O resultado foi uma pasta com dezenas de imagens e pessoas diferentes. Isso alimenta o reconhecimento, porque sem essa base o reconhecimento ficaria limitado. Mantive essa estrategia porque o ganho foi grande.
+
+Script v6: `src/v6_reconhecendo.py`. Aqui entra reconhecimento facial de fato. Leio imagens rotuladas em `src/Entrada/conhecidos`, gero embeddings com DeepFace e comparo com as faces detectadas no video. Coloquei um limiar mais permissivo no inicio, em 0.6 de similaridade, para reconhecer mais pessoas, mas isso aumenta risco de falso positivo. O resultado foi que consegui rotular pessoas conhecidas no video, mas notei que precisava ajustar limiares para melhorar confiabilidade. Essa observacao leva para as mudancas de v8 e v9.
+
+Script v7: `src/v7_detectar_movimentos.py`. Adicionei atividades. Usei o modelo YOLOv11 pose para keypoints e classifiquei atividades simples como parado, andando, correndo, sentado ou gesticulando. Tambem usei o YOLOv11n para reforcar a deteccao de movimento do corpo. Essa alteracao foi feita para atender o requisito de analisar atividades humanas. O resultado e que consigo adicionar uma camada de contexto por pessoa, mesmo com classificacao simples.
+
+Script v8: `src/v8_anomalias.py`. Criei a ideia de anomalias. Observei historico de movimento e sinalizei quando alguem foge do padrao. Nessa versao aumentei o limiar de reconhecimento para 0.91, para evitar chamar pessoas erradas. Isso e uma alteracao importante: ao aumentar o limiar perco alguns reconhecimentos, mas ganho em confiabilidade. O resultado ficou mais coerente para falar de eventos fora do padrao.
+
+Script v9: `src/v9_final.py`. Versao final que junta tudo. Tenho deteccao facial com YOLOv8n-face, rastreamento, reconhecimento com DeepFace, emocao, atividades com YOLO pose e anomalias. O script gera tres saidas: video final, JSON de estatisticas e um relatorio TXT. Ajustei parametros para estabilidade, como `embedding_threshold` em 0.75 e `recognition_threshold` em 0.70, alem de usar historico de embeddings para suavizar flutuacoes. Essa mudanca foi feita porque nomes trocavam rapido entre frames. O resultado final e um resumo automatico por pessoa, com periodo de aparicao, emocao predominante, atividade e anomalias. Essa e a entrega completa do projeto.
+
 ### Execucoes por versao
 ```bash
 python src/v1_detectar_face_imagens.py

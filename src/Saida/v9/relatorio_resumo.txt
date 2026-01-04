@@ -1,0 +1,429 @@
+RELATORIO AUTOMATICO - TECH CHALLENGE FASE 4
+
+Video de entrada: Activities.mp4
+Video de saida: Activities_detectado.mp4
+
+Total de frames analisados: 3326
+Numero de anomalias detectadas: 43
+Frames com anomalias: 33
+
+Atividade predominante: Parado
+Distribuicao de atividades:
+- Parado: 2536 (45.98%)
+- Sentado: 1240 (22.48%)
+- Andando: 701 (12.71%)
+- Sem Pose: 495 (8.98%)
+- Correndo: 356 (6.46%)
+- Gesticulando: 187 (3.39%)
+
+Emocao predominante: Neutro
+Distribuicao de emocoes:
+- Neutro: 1318 (26.09%)
+- Triste: 1150 (22.77%)
+- Feliz: 851 (16.85%)
+- Medo: 780 (15.44%)
+- Raiva: 666 (13.19%)
+- Surpresa: 283 (5.6%)
+- Nojo: 3 (0.06%)
+
+Resumo por pessoa:
+
+Nome: Tyna (ID 1)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Tyna_1.jpg
+Inicio: 00:00.03 | Fim: 00:06.00 | Frames: 180
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 46.11%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 58.89%
+Anomalias: 5
+Resumo: Tyna apareceu de 00:00.03 a 00:06.00, ficou Neutro em 46.11% do tempo e teve atividade predominante Parado em 58.89% do tempo, com 5 anomalias.
+
+Nome: Dino (ID 2)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Dino_1.jpg
+Inicio: 00:00.03 | Fim: 00:06.00 | Frames: 180
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 59.44%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 53.89%
+Anomalias: 8
+Resumo: Dino apareceu de 00:00.03 a 00:06.00, ficou Neutro em 59.44% do tempo e teve atividade predominante Parado em 53.89% do tempo, com 8 anomalias.
+
+Nome: Paula (ID 3)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Paula_1.jpg
+Inicio: 00:00.03 | Fim: 00:06.00 | Frames: 180
+EmocaoPredominante: Raiva
+PercentualEmocaoPredominante: 41.11%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 80.0%
+Anomalias: 4
+Resumo: Paula apareceu de 00:00.03 a 00:06.00, ficou Raiva em 41.11% do tempo e teve atividade predominante Parado em 80.0% do tempo, com 4 anomalias.
+
+Nome: Sandra (ID 4)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Sandra_1.jpg
+Inicio: 00:00.03 | Fim: 00:06.00 | Frames: 180
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 72.78%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 66.11%
+Anomalias: 0
+Resumo: Sandra apareceu de 00:00.03 a 00:06.00, ficou Triste em 72.78% do tempo e teve atividade predominante Parado em 66.11% do tempo, com nenhuma anomalia.
+
+Nome: Luka (ID 5)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Luka_1.jpg
+Inicio: 00:06.03 | Fim: 00:12.00 | Frames: 180
+EmocaoPredominante: Feliz
+PercentualEmocaoPredominante: 94.44%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 90.56%
+Anomalias: 0
+Resumo: Luka apareceu de 00:06.03 a 00:12.00, ficou Feliz em 94.44% do tempo e teve atividade predominante Parado em 90.56% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa6 (ID 6)
+Foto: N/A
+Inicio: 00:06.37 | Fim: 00:06.37 | Frames: 1
+EmocaoPredominante: Raiva
+PercentualEmocaoPredominante: 100.0%
+AtividadePredominante: Sem Pose
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Pessoa6 apareceu de 00:06.37 a 00:06.37, ficou Raiva em 100.0% do tempo e teve atividade predominante Sem Pose em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa7 (ID 7)
+Foto: N/A
+Inicio: 00:18.27 | Fim: 00:18.33 | Frames: 3
+EmocaoPredominante: Feliz
+PercentualEmocaoPredominante: 66.67%
+AtividadePredominante: Gesticulando
+PercentualAtividadePredominante: 66.67%
+Anomalias: 0
+Resumo: Pessoa7 apareceu de 00:18.27 a 00:18.33, ficou Feliz em 66.67% do tempo e teve atividade predominante Gesticulando em 66.67% do tempo, com nenhuma anomalia.
+
+Nome: Alice (ID 8)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Alice_1.jpg
+Inicio: 00:18.50 | Fim: 00:22.77 | Frames: 121
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 38.02%
+AtividadePredominante: Gesticulando
+PercentualAtividadePredominante: 61.98%
+Anomalias: 3
+Resumo: Alice apareceu de 00:18.50 a 00:22.77, ficou Triste em 38.02% do tempo e teve atividade predominante Gesticulando em 61.98% do tempo, com 3 anomalias.
+
+Nome: Pessoa9 (ID 9)
+Foto: N/A
+Inicio: 00:18.50 | Fim: 00:18.50 | Frames: 1
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 100.0%
+AtividadePredominante: Sem Pose
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Pessoa9 apareceu de 00:18.50 a 00:18.50, ficou Medo em 100.0% do tempo e teve atividade predominante Sem Pose em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa10 (ID 10)
+Foto: N/A
+Inicio: 00:19.93 | Fim: 00:19.93 | Frames: 1
+EmocaoPredominante: Raiva
+PercentualEmocaoPredominante: 100.0%
+AtividadePredominante: Sem Pose
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Pessoa10 apareceu de 00:19.93 a 00:19.93, ficou Raiva em 100.0% do tempo e teve atividade predominante Sem Pose em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa11 (ID 11)
+Foto: N/A
+Inicio: 00:22.83 | Fim: 00:23.57 | Frames: 7
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 42.86%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 42.86%
+Anomalias: 0
+Resumo: Pessoa11 apareceu de 00:22.83 a 00:23.57, ficou Neutro em 42.86% do tempo e teve atividade predominante Parado em 42.86% do tempo, com nenhuma anomalia.
+
+Nome: Bela (ID 12)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Bela_4.jpg
+Inicio: 00:22.83 | Fim: 00:23.53 | Frames: 9
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 33.33%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 33.33%
+Anomalias: 2
+Resumo: Bela apareceu de 00:22.83 a 00:23.53, ficou Triste em 33.33% do tempo e teve atividade predominante Parado em 33.33% do tempo, com 2 anomalias.
+
+Nome: Pessoa13 (ID 13)
+Foto: N/A
+Inicio: 00:23.03 | Fim: 00:23.03 | Frames: 1
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 100.0%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Pessoa13 apareceu de 00:23.03 a 00:23.03, ficou Medo em 100.0% do tempo e teve atividade predominante Parado em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa14 (ID 14)
+Foto: N/A
+Inicio: 00:23.23 | Fim: 00:23.27 | Frames: 2
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 100.0%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 50.0%
+Anomalias: 0
+Resumo: Pessoa14 apareceu de 00:23.23 a 00:23.27, ficou Triste em 100.0% do tempo e teve atividade predominante Parado em 50.0% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa15 (ID 15)
+Foto: N/A
+Inicio: 00:23.43 | Fim: 00:24.00 | Frames: 18
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 66.67%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 55.56%
+Anomalias: 0
+Resumo: Pessoa15 apareceu de 00:23.43 a 00:24.00, ficou Triste em 66.67% do tempo e teve atividade predominante Parado em 55.56% do tempo, com nenhuma anomalia.
+
+Nome: Jaba (ID 16)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Jaba_1.jpg
+Inicio: 00:24.03 | Fim: 00:30.00 | Frames: 180
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 51.67%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Jaba apareceu de 00:24.03 a 00:30.00, ficou Neutro em 51.67% do tempo e teve atividade predominante Parado em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Bela (ID 17)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Bela_4.jpg
+Inicio: 00:30.03 | Fim: 00:42.00 | Frames: 359
+EmocaoPredominante: Surpresa
+PercentualEmocaoPredominante: 48.75%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 94.71%
+Anomalias: 2
+Resumo: Bela apareceu de 00:30.03 a 00:42.00, ficou Surpresa em 48.75% do tempo e teve atividade predominante Parado em 94.71% do tempo, com 2 anomalias.
+
+Nome: Bastiao (ID 18)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Bastiao_1.jpg
+Inicio: 00:42.03 | Fim: 00:48.00 | Frames: 180
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 78.33%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 1
+Resumo: Bastiao apareceu de 00:42.03 a 00:48.00, ficou Neutro em 78.33% do tempo e teve atividade predominante Parado em 100.0% do tempo, com 1 anomalia.
+
+Nome: Zico (ID 19)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Zico_3.jpg
+Inicio: 00:48.03 | Fim: 00:57.00 | Frames: 246
+EmocaoPredominante: Feliz
+PercentualEmocaoPredominante: 58.54%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Zico apareceu de 00:48.03 a 00:57.00, ficou Feliz em 58.54% do tempo e teve atividade predominante Parado em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Zico (ID 20)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Zico_3.jpg
+Inicio: 00:54.03 | Fim: 00:54.77 | Frames: 23
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 73.91%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Zico apareceu de 00:54.03 a 00:54.77, ficou Neutro em 73.91% do tempo e teve atividade predominante Parado em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa21 (ID 21)
+Foto: N/A
+Inicio: 00:57.03 | Fim: 01:01.00 | Frames: 120
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 38.33%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Pessoa21 apareceu de 00:57.03 a 01:01.00, ficou Medo em 38.33% do tempo e teve atividade predominante Parado em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Juca (ID 22)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Juca_1.jpg
+Inicio: 01:01.03 | Fim: 01:13.00 | Frames: 360
+EmocaoPredominante: Raiva
+PercentualEmocaoPredominante: 31.39%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 37.22%
+Anomalias: 4
+Resumo: Juca apareceu de 01:01.03 a 01:13.00, ficou Raiva em 31.39% do tempo e teve atividade predominante Parado em 37.22% do tempo, com 4 anomalias.
+
+Nome: Tropeco (ID 23)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Tropeco_2.jpg
+Inicio: 01:07.10 | Fim: 01:13.00 | Frames: 128
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 30.47%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 57.03%
+Anomalias: 1
+Resumo: Tropeco apareceu de 01:07.10 a 01:13.00, ficou Medo em 30.47% do tempo e teve atividade predominante Sentado em 57.03% do tempo, com 1 anomalia.
+
+Nome: Carlos (ID 24)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Carlos_1.jpg
+Inicio: 01:13.03 | Fim: 01:32.00 | Frames: 518
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 44.02%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 35.52%
+Anomalias: 0
+Resumo: Carlos apareceu de 01:13.03 a 01:32.00, ficou Neutro em 44.02% do tempo e teve atividade predominante Parado em 35.52% do tempo, com nenhuma anomalia.
+
+Nome: Tropeco (ID 25)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Tropeco_2.jpg
+Inicio: 01:16.13 | Fim: 01:19.00 | Frames: 55
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 52.73%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 98.18%
+Anomalias: 1
+Resumo: Tropeco apareceu de 01:16.13 a 01:19.00, ficou Neutro em 52.73% do tempo e teve atividade predominante Sentado em 98.18% do tempo, com 1 anomalia.
+
+Nome: Pessoa26 (ID 26)
+Foto: N/A
+Inicio: 01:17.30 | Fim: 01:17.30 | Frames: 1
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 100.0%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Pessoa26 apareceu de 01:17.30 a 01:17.30, ficou Triste em 100.0% do tempo e teve atividade predominante Parado em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Tropeco (ID 27)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Tropeco_2.jpg
+Inicio: 01:19.03 | Fim: 01:20.00 | Frames: 30
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 90.0%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 100.0%
+Anomalias: 1
+Resumo: Tropeco apareceu de 01:19.03 a 01:20.00, ficou Medo em 90.0% do tempo e teve atividade predominante Parado em 100.0% do tempo, com 1 anomalia.
+
+Nome: Sandro Jorge (ID 28)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Sandro Jorge_1.jpg
+Inicio: 01:20.03 | Fim: 01:32.00 | Frames: 360
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 29.17%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 97.22%
+Anomalias: 1
+Resumo: Sandro Jorge apareceu de 01:20.03 a 01:32.00, ficou Triste em 29.17% do tempo e teve atividade predominante Sentado em 97.22% do tempo, com 1 anomalia.
+
+Nome: Juca (ID 29)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Juca_1.jpg
+Inicio: 01:20.03 | Fim: 01:22.57 | Frames: 77
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 76.62%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 28.57%
+Anomalias: 4
+Resumo: Juca apareceu de 01:20.03 a 01:22.57, ficou Triste em 76.62% do tempo e teve atividade predominante Sentado em 28.57% do tempo, com 4 anomalias.
+
+Nome: Pessoa30 (ID 30)
+Foto: N/A
+Inicio: 01:20.20 | Fim: 01:20.20 | Frames: 1
+EmocaoPredominante: Raiva
+PercentualEmocaoPredominante: 100.0%
+AtividadePredominante: Sem Pose
+PercentualAtividadePredominante: 100.0%
+Anomalias: 0
+Resumo: Pessoa30 apareceu de 01:20.20 a 01:20.20, ficou Raiva em 100.0% do tempo e teve atividade predominante Sem Pose em 100.0% do tempo, com nenhuma anomalia.
+
+Nome: Juca (ID 31)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Juca_1.jpg
+Inicio: 01:24.97 | Fim: 01:32.00 | Frames: 209
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 33.97%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 78.47%
+Anomalias: 4
+Resumo: Juca apareceu de 01:24.97 a 01:32.00, ficou Neutro em 33.97% do tempo e teve atividade predominante Sentado em 78.47% do tempo, com 4 anomalias.
+
+Nome: Chico (ID 32)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Chico_1.jpg
+Inicio: 01:26.03 | Fim: 01:32.00 | Frames: 180
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 32.22%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 92.78%
+Anomalias: 3
+Resumo: Chico apareceu de 01:26.03 a 01:32.00, ficou Triste em 32.22% do tempo e teve atividade predominante Sentado em 92.78% do tempo, com 3 anomalias.
+
+Nome: Pessoa33 (ID 33)
+Foto: N/A
+Inicio: 01:32.03 | Fim: 01:34.97 | Frames: 89
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 43.82%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 62.92%
+Anomalias: 0
+Resumo: Pessoa33 apareceu de 01:32.03 a 01:34.97, ficou Medo em 43.82% do tempo e teve atividade predominante Parado em 62.92% do tempo, com nenhuma anomalia.
+
+Nome: Pessoa34 (ID 34)
+Foto: N/A
+Inicio: 01:37.60 | Fim: 01:38.00 | Frames: 13
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 69.23%
+AtividadePredominante: Andando
+PercentualAtividadePredominante: 46.15%
+Anomalias: 0
+Resumo: Pessoa34 apareceu de 01:37.60 a 01:38.00, ficou Neutro em 69.23% do tempo e teve atividade predominante Andando em 46.15% do tempo, com nenhuma anomalia.
+
+Nome: Silva (ID 35)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Silva_4.jpg
+Inicio: 01:44.03 | Fim: 01:50.87 | Frames: 206
+EmocaoPredominante: Triste
+PercentualEmocaoPredominante: 43.69%
+AtividadePredominante: Andando
+PercentualAtividadePredominante: 42.23%
+Anomalias: 0
+Resumo: Silva apareceu de 01:44.03 a 01:50.87, ficou Triste em 43.69% do tempo e teve atividade predominante Andando em 42.23% do tempo, com nenhuma anomalia.
+
+Nome: Juca (ID 36)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Juca_1.jpg
+Inicio: 01:44.03 | Fim: 01:45.83 | Frames: 55
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 41.82%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 36.36%
+Anomalias: 4
+Resumo: Juca apareceu de 01:44.03 a 01:45.83, ficou Neutro em 41.82% do tempo e teve atividade predominante Sentado em 36.36% do tempo, com 4 anomalias.
+
+Nome: Gina (ID 37)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Gina_1.jpg
+Inicio: 01:44.03 | Fim: 01:50.00 | Frames: 180
+EmocaoPredominante: Feliz
+PercentualEmocaoPredominante: 51.11%
+AtividadePredominante: Andando
+PercentualAtividadePredominante: 40.56%
+Anomalias: 3
+Resumo: Gina apareceu de 01:44.03 a 01:50.00, ficou Feliz em 51.11% do tempo e teve atividade predominante Andando em 40.56% do tempo, com 3 anomalias.
+
+Nome: Chico (ID 38)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Chico_1.jpg
+Inicio: 01:44.03 | Fim: 01:50.00 | Frames: 180
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 42.22%
+AtividadePredominante: Sentado
+PercentualAtividadePredominante: 71.11%
+Anomalias: 3
+Resumo: Chico apareceu de 01:44.03 a 01:50.00, ficou Medo em 42.22% do tempo e teve atividade predominante Sentado em 71.11% do tempo, com 3 anomalias.
+
+Nome: Chico (ID 39)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Chico_1.jpg
+Inicio: 01:44.03 | Fim: 01:50.00 | Frames: 178
+EmocaoPredominante: Medo
+PercentualEmocaoPredominante: 29.78%
+AtividadePredominante: Andando
+PercentualAtividadePredominante: 40.45%
+Anomalias: 3
+Resumo: Chico apareceu de 01:44.03 a 01:50.00, ficou Medo em 29.78% do tempo e teve atividade predominante Andando em 40.45% do tempo, com 3 anomalias.
+
+Nome: Marcia (ID 40)
+Foto: C:\Gustavo\Sistemas\Pos\TC4_Visao\src\Entrada\conhecidos\Marcia_1.jpg
+Inicio: 01:48.07 | Fim: 01:50.00 | Frames: 59
+EmocaoPredominante: Neutro
+PercentualEmocaoPredominante: 67.8%
+AtividadePredominante: Parado
+PercentualAtividadePredominante: 45.76%
+Anomalias: 0
+Resumo: Marcia apareceu de 01:48.07 a 01:50.00, ficou Neutro em 67.8% do tempo e teve atividade predominante Parado em 45.76% do tempo, com nenhuma anomalia.
