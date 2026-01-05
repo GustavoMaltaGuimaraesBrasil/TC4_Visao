@@ -36,12 +36,11 @@ O relatório em `src/Saida/v9/relatorio_resumo.txt` inclui:
 - resumo por pessoa (intervalo no vídeo, emoção e atividade predominantes)
 
 ## Demonstração em vídeo
-Gravar um vídeo de até 10 minutos mostrando:
+Vídeo de até 10 minutos mostrando:
 - execução do script final `src/v9_final.py`
 - vídeo de saída com boxes, nomes e emoções
 - relatório gerado
 
 ## Links para entrega
-Preencher com os links finais:
 - Vídeo (YouTube): https://www.youtube.com/watch?v=uBs0xYTHJaU
 - Repositório (GitHub): https://github.com/GustavoMaltaGuimaraesBrasil/TC4_Visao
