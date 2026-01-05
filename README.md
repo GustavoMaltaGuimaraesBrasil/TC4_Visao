@@ -12,7 +12,6 @@ Este projeto entrega uma aplicação completa de análise de vídeo com:
 - OpenCV com codecs de vídeo padrão
 - Modelos YOLO em `models/`
 - Vídeo de entrada em `src/Entrada/Activities.mp4`
-- Fotos conhecidas em `src/Entrada/conhecidos/`
 
 Dependências estão em `requirements.txt` (com comentários por script).
 
