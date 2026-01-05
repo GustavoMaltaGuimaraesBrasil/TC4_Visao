@@ -43,5 +43,5 @@ Gravar um video de ate 10 minutos mostrando:
 
 ## Links para entrega
 Preencher com os links finais:
-- Video (YouTube): 
+- Video (YouTube): https://www.youtube.com/watch?v=uBs0xYTHJaU
 - Repositorio (GitHub): https://github.com/GustavoMaltaGuimaraesBrasil/TC4_Visao
