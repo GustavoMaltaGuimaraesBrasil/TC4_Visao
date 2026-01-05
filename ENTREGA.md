@@ -1,16 +1,16 @@
-# Entrega - Tech Challenge Fase 4
+﻿# Entrega - Tech Challenge Fase 4
 
 Este documento organiza o que precisa ser apresentado na entrega e como
 reproduzir os resultados do projeto.
 
 ## Objetivo do projeto
-Aplicacao de analise de video com:
-- deteccao/reconhecimento facial
-- analise de expressoes emocionais
-- deteccao de atividades
-- geracao de resumo automatico
+Aplicação de análise de vídeo com:
+- detecção/reconhecimento facial
+- análise de expressões emocionais
+- detecção de atividades
+- geração de resumo automático
 
-## Como executar (gerar a saida final)
+## Como executar (gerar a saída final)
 ```powershell
 python -m venv .venv
 . .venv\Scripts\Activate.ps1
@@ -20,28 +20,28 @@ python src/v9_final.py
 ```
 
 ## Arquivos de entrada
-- Video de entrada: `src/Entrada/Activities.mp4`
+- Vídeo de entrada: `src/Entrada/Activities.mp4`
 - Faces conhecidas: `src/Entrada/conhecidos/*.jpg`
 
-## Saidas geradas (entrega tecnica)
-- Video processado: `src/Saida/v9/Activities_detectado.mp4`
-- Estatisticas de anomalias: `src/Saida/v9/video_detection_anomalias_stats.json`
-- Relatorio automatico: `src/Saida/v9/relatorio_resumo.txt`
+## Saídas geradas (entrega técnica)
+- Vídeo processado: `src/Saida/v9/Activities_detectado.mp4`
+- Estatísticas de anomalias: `src/Saida/v9/video_detection_anomalias_stats.json`
+- Relatório automático: `src/Saida/v9/relatorio_resumo.txt`
 
-## Relatorio automatico (resumo)
-O relatorio em `src/Saida/v9/relatorio_resumo.txt` inclui:
+## Relatório automático (resumo)
+O relatório em `src/Saida/v9/relatorio_resumo.txt` inclui:
 - total de frames analisados
-- numero de anomalias detectadas
-- distribuicao de atividades e emocoes
-- resumo por pessoa (intervalo no video, emocao e atividade predominantes)
+- número de anomalias detectadas
+- distribuição de atividades e emoções
+- resumo por pessoa (intervalo no vídeo, emoção e atividade predominantes)
 
-## Demonstracao em video
-Gravar um video de ate 10 minutos mostrando:
-- execucao do script final `src/v9_final.py`
-- video de saida com boxes, nomes e emocoes
-- relatorio gerado
+## Demonstração em vídeo
+Gravar um vídeo de até 10 minutos mostrando:
+- execução do script final `src/v9_final.py`
+- vídeo de saída com boxes, nomes e emoções
+- relatório gerado
 
 ## Links para entrega
 Preencher com os links finais:
-- Video (YouTube): https://www.youtube.com/watch?v=uBs0xYTHJaU
-- Repositorio (GitHub): https://github.com/GustavoMaltaGuimaraesBrasil/TC4_Visao
+- Vídeo (YouTube): https://www.youtube.com/watch?v=uBs0xYTHJaU
+- Repositório (GitHub): https://github.com/GustavoMaltaGuimaraesBrasil/TC4_Visao
